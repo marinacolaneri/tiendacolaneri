@@ -14,7 +14,7 @@ function App() {
         <Titulo/>
         <Formulario/>
         <Mensaje greeting='Muchas Gracias por su Compra'/>
-
+        
       </div>  
     
   );
