@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './Componentes/Navbar/Navbar';
+import Titulo from './Componentes/Titulo/Titulo';
+import Formulario from './Componentes/Formulario/Formulario';
+import Mensaje from './Componentes/Footer/Footer';
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div >
+        <Navbar/>
+        <Titulo/>
+        <Formulario/>
+        <Mensaje greeting='Muchas Gracias por su Compra'/>
+
+      </div>  
+    
   );
 }
 
 export default App;
+
+
